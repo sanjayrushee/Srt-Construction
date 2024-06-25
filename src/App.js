@@ -1,8 +1,9 @@
 import Contact from './Component/Contact'
+import Header from './Component/Header';
 import './App.css';
 
 const App = () => (
-  <Contact/>
+  <Header/>
 )
 
 export default App;
