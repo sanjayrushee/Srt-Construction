@@ -1,0 +1,30 @@
+.Main-Container-Contact{
+    display: flex;
+    min-height: 100vh;
+}
+
+.Contact-Container-image{
+    background-image: url('/public/constact_img.jpg');
+    background-size: cover;
+    display: flex;
+    min-width: 50vw;
+    
+}
+.Contact-input-container{
+   display: flex;
+   flex-direction: column;
+   align-content: stretch;
+   min-width: 50vw;
+   padding-left: 20px;
+   
+}
+
+.contact_input{
+    width: 500px;
+    height: 50px;
+    margin: 20px;
+    font-family: 'Roboto';
+    padding-left: 10px;
+    color: rgb(20, 19, 19);
+    font
+}

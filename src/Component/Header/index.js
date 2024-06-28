@@ -16,7 +16,7 @@ class Header extends Component {
         const { clickedMobileBtn } = this.state;
 
         return (
-            <>
+            <div className='navbar-main'>
                 <nav className='mobilenav'>
                     <div className="mobilenav__div">
                         <img src="./SRTLOGO.png" alt="logo" className="mobilenav__image" />
@@ -48,7 +48,7 @@ class Header extends Component {
                         <li className="navbar__item">CONTACT</li>
                     </ul>
                 </nav>
-            </>
+            </div>
         );
     }
 }
